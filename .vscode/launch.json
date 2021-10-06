@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HashMap",
+            "request": "launch",
+            "mainClass": "HashMap",
+            "projectName": "LabWeek6_145f64d8"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

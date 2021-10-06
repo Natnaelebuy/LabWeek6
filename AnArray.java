@@ -1,16 +1,26 @@
+import java.util.HashMap;
+
 public class AnArray {
     public static void main(String[] args) {
-        /// creat anarray of 5 string 
-        String[] person = new String[5];
+        HashMap<String, Integer> ages = new HashMap<String, Integer>(4);
 
-        person [0] = "Hawaz";
-        person [1] = "yordanos";
-        person [2] = "yonatan";
-        person [3] = "jose";
-        person [4] = "Gelila";
+//print ages hash map
+System.out.println("ages = " + ages);
 
-        
+//intial 3 myfriends
 
+ages.put("Hawaz", 19);
+ages.put("Yordanos", 21);
+ages.put("Yonatan", 20);
+ages.put("Gelila", 18);
+
+Integer TomAge = ages.get("Tom");
+System.out.println("TomAge = " + TomAge);
+
+for (Integer value : ages.values())
+System.out.println(value);
+   
+//
 
 
 
