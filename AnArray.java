@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 
 public class AnArray {
@@ -17,8 +19,8 @@ ages.put("Yordanos", 21);
 ages.put("Yonatan", 20);
 ages.put("Gelila", 18);
 
-Integer TomAge = ages.get("Tom");
-System.out.println("TomAge = " + TomAge);
+Integer hawaz = ages.get("Hawaz");
+System.out.println("hawaz = " + hawaz);
 
 for (Integer value : ages.values())
 System.out.println(value);
@@ -63,6 +65,27 @@ LinkedList<String> ll= new LinkedList<String>();
 
     //print the Queue
     System.out.println("The Queue contents:" + str_queue);
+
+    
+    //Put 7 floats into a HashSet.  Use the float (2.1, 2.2, 2.3, 2.3, 2.3, 2.4, 2.5)
+
+System.out.println("ages = " + ages);
+
+//intial 4 myfriends
+
+ages = ("2.1");
+ages =("2.2");
+ages = ("2.3");
+ages = ("2.3");
+ages = ("2.3");
+ages = ("2.4");
+ages = ("2.5")
+System.out.println(ages);
+
+for (Integer value : ages.values())
+System.out.println(value);
+    
+
    
 
 
