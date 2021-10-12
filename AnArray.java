@@ -72,22 +72,23 @@ LinkedList<String> ll= new LinkedList<String>();
 System.out.println("ages = " + ages);
 
 //intial 4 myfriends
+HashSet<Double> set = new HashSet<>();
+String d1 =  ("2.1");
+String d2 = ("2.2");
+String d3 = ("2.3");
+String d4 = ("2.3");
+String d5 =  ("2.3");
+String d6 =  ("2.4");
+String d7 =  ("2.5");
 
-ages = ("2.1");
-ages =("2.2");
-ages = ("2.3");
-ages = ("2.3");
-ages = ("2.3");
-ages = ("2.4");
-ages = ("2.5")
-System.out.println(ages);
 
-for (Integer value : ages.values())
-System.out.println(value);
-    
-
-   
-
+System.out.println(set.contains(d1));
+System.out.println(set.contains(d2));
+System.out.println(set.contains(d3));
+System.out.println(set.contains(d4));
+System.out.println(set.contains(d5));
+System.out.println(set.contains(d6));
+System.out.println(set.contains(d7));
 
 
 
